@@ -15,7 +15,6 @@ S.No	Name of the Apparatus	Range	Quantity
 6	Digital Voltmeter	(0-20)V DC	1
 7	Connecting Wires	As Required	
 
-CIRCUIT DIAGRAM:
 THEORY:
 	
 A zener diode is heavily doped p-n junction diode, specially made to operate in the break down region. A p-n junction diode normally does not conduct when reverse biased. But if the reverse bias is increased, at a particular voltage it starts conducting heavily. This voltage is called Break down Voltage. High current through the diode can permanently damage the device To avoid high current, we connect a resistor in series with zener diode. Once the diode starts conducting it maintains almost constant voltage across the terminals what ever may be the current through it, i.e., it has very low dynamic resistance. It is used in voltage regulators.
@@ -29,9 +28,38 @@ PROCEDURE:
 4. A graph is plotted between zener current (Iz) on y-axis and zener voltage (Vz) on x-axis.
 OBSERVATIONS:
 
-REGULATION CHARACTERISTICS:
+LINE REGULATION:
 
-V-I & REGULATION CHARACTERISTICS:
+| S.No | Input Voltage (V) | Output Voltage (V) |
+| ---: | ----------------: | -----------------: |
+|    1 |              12.0 |               5.14 |
+|    2 |              13.0 |               5.16 |
+|    3 |              14.0 |               5.17 |
+|    4 |              15.0 |               5.17 |
+|    5 |              16.0 |               5.18 |
+|    6 |              17.0 |               5.19 |
+
+LOAD REGULATION:
+
+| S.No | Load Resistance (Ω) | Output Voltage (V) |
+| ---: | ------------------: | -----------------: |
+|    1 |                 100 |               5.19 |
+|    2 |                 200 |               5.20 |
+|    3 |                 300 |               5.20 |
+|    4 |                 400 |               5.20 |
+|    5 |                 500 |               5.20 |
+|    6 |                 600 |               5.21 |
+
+CIRCUIT DIAGRAM:
+
+LINE REGULATION:
+
+
+<img width="815" height="458" alt="Screenshot 2025-12-14 212639" src="https://github.com/user-attachments/assets/96d06f7d-8241-45c4-9aa0-70a8a41c2d08" />
+
+LOAD REGULATION:
+
+<img width="807" height="428" alt="Screenshot 2025-12-14 213336" src="https://github.com/user-attachments/assets/9d78224e-1d31-4e70-b005-6ab850913361" />
 
 PRECAUTIONS:
 
